@@ -6,7 +6,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 :root {
-	font-size: 15px;
+	font-size: 2rem;
 }
 
 html {
@@ -178,4 +178,7 @@ a:focus {
 		height: 100vh;
 		justify-content: center;
 	}
+}
+.frame__demo{
+
 }
