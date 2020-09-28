@@ -3,6 +3,12 @@
 	<head>
 		<script>
 			let id=Math.floor(Math.random()*4)+2;//2~5
+			(function() {
+			var sUserAgent = navigator.userAgent;
+			if (sUserAgent.indexOf('Android') > -1 || sUserAgent.indexOf('iPhone') > -1 || sUserAgent.indexOf('iPad') > -1 || sUserAgent.indexOf('iPod') > -1 || sUserAgent.indexOf('Symbian') > -1) {
+				location.href = '//bbs.zafu-polaris.cn';
+			} else {}
+		})();
 		</script>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
